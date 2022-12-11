@@ -1,3 +1,84 @@
-body {
-    
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Mono:wght@500&display=swap');
+
+body h1, h2, h3 {
+    font-family: Roboto Mono, sans-serif;
+}
+
+body p {
+    font-family: Lato, arial;
+}
+
+#logo {
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+    letter-spacing: 3px;
+}
+
+#menu {
+    font-size: 120%;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    padding-left: 3%;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    color: #0089BA;
+}
+
+#hero-main {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#hero-image {
+    width: 100%;
+    height: 600px;
+    background: url('../images/hero-image.jpg') no-repeat center center
+
+}
+
+#hero-text {
+    background-color: rgba(238, 232, 169, 0.8);
+    height: 200px;
+    width: 450px;
+    font-size: 120%;
+    float: right;
+    text-align: center;
+
+    bottom: 200px;
+    right: 150px;
+
+    position: absolute;
+}
+
+.button {
+    color: #EEE8A9;
+    background-color: #0089BA;
+    border: 1px solid #EEE8A9;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 120%;
+}
+
+.button:hover {
+    color: #0089BA;
+    background-color: #EEE8A9;
+    border: 1px solid #0089BA
 }
