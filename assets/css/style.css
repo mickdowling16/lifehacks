@@ -8,9 +8,17 @@ body p {
     font-family: Lato, arial;
 }
 
+#header {
+    height: 75px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #0089BA;
+}
+
 #logo {
     margin: 0 auto;
-    padding: 0;
+    padding: 0 25px;
     float: left;
     letter-spacing: 3px;
 }
@@ -36,7 +44,7 @@ body p {
 }
 
 #menu a:hover {
-    color: #0089BA;
+    color: #7B556F;
 }
 
 #hero-main {
@@ -55,9 +63,10 @@ body p {
 }
 
 #hero-text {
-    background-color: rgba(238, 232, 169, 0.8);
-    height: 200px;
+    background-color: rgba(238, 232, 169, 1);
+    height: 300px;
     width: 450px;
+    border-radius: 20%;
     font-size: 120%;
     float: right;
     text-align: center;
@@ -69,9 +78,9 @@ body p {
 }
 
 .button {
-    color: #EEE8A9;
+    color: black;
     background-color: #0089BA;
-    border: 1px solid #EEE8A9;
+    border: 2px solid #7B556F;
     border-radius: 10px;
     padding: 10px;
     font-size: 120%;
@@ -79,7 +88,7 @@ body p {
 }
 
 .button:hover {
-    color: #0089BA;
-    background-color: #EEE8A9;
-    border: 1px solid #0089BA
+    color: white;
+    background-color: #7B556F;
+    border: 2px solid #0089BA
 }
