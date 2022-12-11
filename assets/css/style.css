@@ -37,6 +37,9 @@ body p {
 }
 
 #menu li {
+    font-family: Roboto Mono, sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
     float: right;
     list-style-type: none;
     margin-right: 30px;
@@ -64,14 +67,14 @@ body p {
     width: 100%;
     height: 600px;
     background: url('../images/hero-image.jpg') no-repeat center center
-
 }
 
 #hero-text {
-    background-color: rgba(238, 232, 169, 1);
+    background-color: #171422;
+    color: #fafafa;
     height: 300px;
     width: 450px;
-    border-radius: 20%;
+    border-radius: 10%;
     font-size: 120%;
     float: right;
     text-align: center;
@@ -83,9 +86,8 @@ body p {
 }
 
 .button {
-    color: black;
+    color: #fafafa;
     background-color: #0089BA;
-    border: 2px solid #7B556F;
     border-radius: 10px;
     padding: 10px;
     font-size: 120%;
@@ -93,26 +95,40 @@ body p {
 }
 
 .button:hover {
-    color: white;
+    color: black;
     background-color: #7B556F;
-    border: 2px solid #0089BA
+}
+
+#main-body {
+    width: 100%;
+    height: 600px;
+    margin: 0;
 }
 
 #main-body-text {
-    width: 33%;
+    width: 40%;
     height: 600px;
     float: left;
     display: block;
-    padding: 30px 60px;
+    padding: 50px 0 0 50px;
 }
 
 #main-body-image {
-    width: 33%;
+    width: 40%;
     height: 600px;
-    float: right;
     display: block;
+    float: right;
+    position: relative;
+    border: 2px solid #7B556F;
 }
 
 #submit-a-hack {
     clear: both;
+}
+
+#body-image {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
 }
