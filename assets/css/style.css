@@ -7,6 +7,7 @@ body {
 
 body h1, h2, h3 {
     font-family: Roboto Mono, sans-serif;
+    
 }
 
 body p {
@@ -113,22 +114,33 @@ body p {
     padding: 50px 0 0 50px;
 }
 
-#main-body-image {
-    width: 40%;
-    height: 600px;
-    display: block;
-    float: right;
-    position: relative;
-    border: 2px solid #7B556F;
-}
-
 #submit-a-hack {
     clear: both;
 }
 
-#body-image {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
+#hack-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#hack-links a:hover {
+    color: #7B556F;
+}
+
+#hack-links li {
+    list-style-type: none;
+    font-family: Lato, arial;
+    font-size: 110%;
+}
+
+#main-body-image {
+    float: left;
+    padding-top: 40px;
+    position: absolute;
+    right: 50px;
+}
+
+#pencils-image {
+    width: 600px;
+    height: 400px;
 }
