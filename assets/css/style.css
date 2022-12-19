@@ -5,9 +5,11 @@ body {
     padding: 0;
 }
 
-body h1, h2, h3 {
+body h1,
+h2,
+h3 {
     font-family: Roboto Mono, sans-serif;
-    
+
 }
 
 body p {
@@ -33,7 +35,8 @@ body p {
     font-size: 120%;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -175,13 +178,13 @@ body p {
 
 footer {
     height: 150px;
-    margin-top: -150px;
 }
+
 .social-networks {
     text-align: center;
 }
 
-.social-networks > li {
+.social-networks>li {
     display: inline;
 }
 
@@ -190,4 +193,13 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+#keyboard-shortcuts-hack {
+    margin-left: 10px;
+}
+
+#keyboard-shortcuts-image {
+    width: 518px;
+    height: 345px;
 }
