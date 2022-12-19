@@ -199,7 +199,17 @@ footer {
     margin-left: 10px;
 }
 
+#keyboard-shortcuts-hack li {
+    font-family: Lato, arial;
+}
+
 #keyboard-shortcuts-image {
     width: 518px;
     height: 345px;
+}
+
+#technology-hacks {
+    width: 80%;
+    margin: 50px;
+    padding: 10px 10px;
 }
