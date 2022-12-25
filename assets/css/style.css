@@ -3,6 +3,7 @@
 body {
     margin: 0 auto;
     padding: 0;
+    font-family: Lato, arial;
 }
 
 body h1,
@@ -70,15 +71,16 @@ body p {
 #hero-image {
     width: 100%;
     height: 600px;
-    background: url('../images/hero-image.jpg') no-repeat center center
+    background: url('../images/hero-image.jpg') no-repeat center center;
+    background-size: cover;
 }
 
 #hero-text {
-    background-color: #171422;
+    background-color: rgba(23, 20, 34, 0.8);
     color: #fafafa;
     height: 300px;
     width: 450px;
-    border-radius: 10%;
+    border-radius: 5%;
     font-size: 120%;
     float: right;
     text-align: center;
@@ -136,7 +138,6 @@ body p {
 #hack-links li {
     list-style-type: none;
     font-family: Lato, arial;
-    font-size: 110%;
 }
 
 #main-body-image {
@@ -195,10 +196,6 @@ footer {
     color: #3a3a3a;
 }
 
-#keyboard-shortcuts-hack {
-    margin-left: 10px;
-}
-
 #keyboard-shortcuts-hack li {
     font-family: Lato, arial;
 }
@@ -208,8 +205,7 @@ footer {
     height: 345px;
 }
 
-#technology-hacks {
+article {
     width: 80%;
     margin: 50px;
-    padding: 10px 10px;
 }
