@@ -126,6 +126,7 @@ header a {
 .button:hover {
     color: white;
     background-color: #7B556F;
+    cursor: pointer;
 }
 
 #main-body {
