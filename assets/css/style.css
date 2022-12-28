@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto+Mono:wght@500&display=swap');
 
-body {
-    margin: 0 auto;
-    padding: 0;
+* {
+    margin: 0px;
+    padding: 0px;
+ }
+
+body {    
     font-family: Lato, arial;
 }
 
@@ -15,6 +18,11 @@ h3 {
 
 body p {
     font-family: Lato, arial;
+}
+
+header a {
+    text-decoration: none;
+    color: #fafafa;
 }
 
 #header {
@@ -116,11 +124,11 @@ body p {
 }
 
 #main-body-text {
-    width: 40%;
+    width: 80%;
     height: 450px;
-    float: left;
-    display: block;
+    margin: auto;
     padding: 50px 0 0 50px;
+    font-size: 1.2rem;
 }
 
 #submit-a-hack-section {
@@ -130,31 +138,6 @@ body p {
     text-align: center;
 }
 
-#hack-links a {
-    text-decoration: none;
-    color: inherit;
-}
-
-#hack-links a:hover {
-    color: #7B556F;
-}
-
-#hack-links li {
-    list-style-type: none;
-    font-family: Lato, arial;
-}
-
-#main-body-image {
-    float: left;
-    padding-top: 40px;
-    position: absolute;
-    right: 50px;
-}
-
-#pencils-image {
-    width: 600px;
-    height: 400px;
-}
 
 /* submit a hack main page dive */
 
@@ -325,9 +308,9 @@ input[type=text] {
   }
 
 #submit-form {
+    padding-top: 80px;
     width: 80%;
     margin: auto;
-    background-color: red;
 }
 
 #your-hack {
@@ -353,11 +336,6 @@ input[type=button], input[type=submit], input[type=reset] {
         float: none;
         display: block;
         padding: 50px 0 0 50px;
-    }
-
-    #main-body-image {
-        display: none;
-        float: none;
     }
 
 }
