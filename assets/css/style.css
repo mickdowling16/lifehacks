@@ -292,3 +292,99 @@ article div {
     margin: auto;
     text-align: center;
 }
+
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+    #main-body-text {
+        width: 80%;
+        height: 450px;
+        float: none;
+        display: block;
+        padding: 50px 0 0 50px;
+    }
+
+    #main-body-image {
+        display: none;
+        float: none;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: right;
+        float: right;
+        margin-bottom: 20px;
+        line-height: 30px;
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    #cleaning-category {
+        margin-top: 80px;
+        font-size: 3.5rem;
+    }
+
+    #cooking-category {
+        margin-top: 80px;
+        font-size: 3.5rem;
+    }
+
+    #upcycle-category {
+        margin-top: 80px;
+        font-size: 3.5rem;
+    }
+}
+
+@media screen and (max-width: 620px) {
+
+    #hero-text {
+        width: 60%;
+        height: 60%;
+        font-size: 1rem;
+        margin: auto;
+    }
+
+    #hero-text p {
+        padding: 5px;
+    }
+
+    #cleaning-category {
+        margin-top: 80px;
+        font-size: 2.5rem;
+    }
+
+    #cooking-category {
+        margin-top: 80px;
+        font-size: 2.5rem;
+    }
+
+    #upcycle-category {
+        margin-top: 80px;
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    #main-body-text {
+        padding: 20px 0 0 20px;
+        font-size: 0.8rem;
+    }
+
+    #cleaning-category {
+        margin-top: 200px;
+        font-size: 1rem;
+    }
+
+    #cooking-category {
+        margin-top: 200px;
+        font-size: 1rem;
+    }
+
+    #upcycle-category {
+        margin-top: 200px;
+        font-size: 1rem;
+    }
+}
