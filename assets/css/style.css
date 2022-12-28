@@ -93,23 +93,28 @@ header a {
     height: 300px;
     width: 450px;
     border-radius: 5%;
-    font-size: 120%;
+    font-size: 1.2rem;
     float: right;
     text-align: center;
+    padding-top: 20px;
 
     bottom: 200px;
-    right: 150px;
+    left: 150px;
 
     position: absolute;
+
 }
 
 .button {
     color: #fafafa;
     background-color: #0089BA;
+    width: 40%;
     border-radius: 10px;
     padding: 10px;
     font-size: 120%;
     text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .button:hover {
@@ -131,6 +136,10 @@ header a {
     font-size: 1.2rem;
 }
 
+#main-body-text p {
+    padding-top: 20px;
+}
+
 #submit-a-hack-section {
     clear: both;
     height: 450px;
@@ -142,7 +151,7 @@ header a {
 /* submit a hack main page dive */
 
 #submit-div {
-    padding-top: 20px;
+    padding-top: 30px;
     height: 100%;
     width: 100%;
     background: url('../images/abacus.jpg') no-repeat center center;
@@ -153,9 +162,10 @@ header a {
 
 #submit-div h2 {
     color: #fafafa;
-    font-size: 3rem;
+    font-size: 4rem;
     text-align: center;
     padding-top: 50px;
+    padding-bottom: 20px;
     letter-spacing: 3px;
 }
 
