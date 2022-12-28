@@ -32,6 +32,8 @@ body p {
     letter-spacing: 3px;
 }
 
+/* navigation */
+
 #menu {
     font-size: 120%;
 }
@@ -59,6 +61,8 @@ body p {
 #menu a:hover {
     color: #7B556F;
 }
+
+/* Hero image header  */
 
 #hero-main {
     height: 600px;
@@ -152,6 +156,8 @@ body p {
     height: 400px;
 }
 
+/* submit a hack main page dive */
+
 #submit-div {
     padding-top: 20px;
     height: 100%;
@@ -177,6 +183,8 @@ body p {
     font-weight: bold;
 }
 
+/* footer */
+
 footer {
     height: 150px;
 }
@@ -196,16 +204,61 @@ footer {
     color: #3a3a3a;
 }
 
-#keyboard-shortcuts-hack li {
-    font-family: Lato, arial;
-}
+/* Hacks page categories */
 
-#keyboard-shortcuts-image {
-    width: 518px;
-    height: 345px;
-}
-
-article {
+#cleaning-category {
     width: 80%;
-    margin: 50px;
+    height: 500px;
+    background-color:rgba(0, 137, 186, 0.6);
+    border-radius: 10%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border: 5px solid;
+    line-height: 500px;
+}
+
+#cleaning-category h2 {
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 4rem;
+}
+
+#cooking-category {
+    width: 80%;
+    height: 500px;
+    background-color: red;
+    border-radius: 10%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border: 5px solid;
+    line-height: 500px;
+}
+
+#cooking-category h2 {
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 4rem;
+}
+
+#upcycle-category {
+    width: 80%;
+    height: 500px;
+    background-color: green;
+    border-radius: 10%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    border: 5px solid;
+    line-height: 500px;
+}
+
+#upcycle-category h2 {
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 4rem;
 }
