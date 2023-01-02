@@ -288,19 +288,30 @@ footer {
 /* lifehack articles styling */
 
 article {
-    width: 80%;
-    height: 450px;
+    width: 100%;
+    height: 600px;
     margin: auto;
 }
 
 article div {
-    width: 60%;
-    height: 450px;
+    width: 50%;
+    height: 600px;
+    margin: auto;
+    padding-top: 75px;
+}
+
+article h2 {
+    padding-bottom: 25px;
+}
+
+article p {
+    padding-bottom: 25px;
 }
 
 .lifehacks-headings {
     margin: auto;
     text-align: center;
+    padding: 50px;
 }
 
 /* submit a hack form styling */
