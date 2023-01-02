@@ -310,7 +310,7 @@ article div {
     width: 80%;
     height: 600px;
     margin: auto;
-    padding-top: 75x;
+    padding-top: 50px;
 }
 
 article h2 {
@@ -337,6 +337,7 @@ iframe {
     width: 700px;
     height: 394px;
     padding-bottom: 0px;
+    border: none;
 }
 
 /* submit a hack form styling */
@@ -467,7 +468,7 @@ input[type=button], input[type=submit], input[type=reset] {
         width: 80%;
         height: 600px;
         margin: auto;
-        padding-top: 75x;
+        padding-top: 50px;
     }
 
     #cleaning-category {
