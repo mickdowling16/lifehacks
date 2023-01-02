@@ -304,9 +304,14 @@ article h2 {
     padding-bottom: 25px;
 }
 
-article p {
+article h4 {
     padding-bottom: 15px;
-    width: 700px;
+    font-style: italic;
+}
+
+article p {
+    padding-bottom: 25px;
+    width: 100%;
 }
 
 .lifehacks-headings {
@@ -426,6 +431,11 @@ input[type=button], input[type=submit], input[type=reset] {
         width: 560px;
         height: 315px;
     }
+
+    article img {
+        width: 560px;
+        height: 315px;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -490,6 +500,11 @@ input[type=button], input[type=submit], input[type=reset] {
     }
 
     iframe {
+        height: 169px;
+        width: 300px;
+    }
+
+    article img {
         height: 169px;
         width: 300px;
     }
@@ -571,6 +586,11 @@ input[type=button], input[type=submit], input[type=reset] {
     }
     
     iframe {
+        height: 140px;
+        width: 240px;
+    }
+
+    article img {
         height: 140px;
         width: 240px;
     }
