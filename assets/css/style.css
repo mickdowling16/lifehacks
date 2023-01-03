@@ -395,6 +395,36 @@ input[type=button], input[type=submit], input[type=reset] {
     cursor: pointer;
   }
 
+/* Thank you page styling */
+
+#thanks {
+    text-align: center;
+    padding-top: 150px;
+    height: 450px;
+    line-height: 50px;
+}
+
+#thanks h2 {
+    font-size: 4rem;
+    color: #0089BA;
+}
+
+#thanks h3 {
+    font-size: 3rem;
+    padding-top: 40px;
+}
+
+#thanks p {
+    font-size: 1.5rem;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+#thanks hr {
+    width: 60%;
+    margin: auto;
+}
+
 /* media queries */
 
 @media screen and (max-width: 1200px) {
