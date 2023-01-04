@@ -38,7 +38,7 @@
         <div id="submit-form">
             <h2>Submit a hack</h2>
 
-            <form method="get" action="/thanks.html">
+            <form method="POST" action="form.php">
                 <label for="fname">First name:</label><br>
                 <input type="text" id="fname" name="fname"><br>
 
@@ -54,7 +54,7 @@
                 <label for="submit-file">Upload a Picture or Video:</label>
                 <input type="file" id="submit-file" name="submit-file"><br><br>
 
-                <input type="submit" value="Submit">
+                <a href="thanks.html"><input type="submit" value="Submit"></a>
                 <input type="reset" value="Clear Form">
             </form>
 
