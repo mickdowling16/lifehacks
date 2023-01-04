@@ -340,6 +340,12 @@ iframe {
     border: none;
 }
 
+.channel-links {
+    padding-top: 15px;
+    font-weight: bold;
+    font-style: italic;
+}
+
 /* submit a hack form styling */
 
 form {

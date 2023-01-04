@@ -2,19 +2,59 @@
 
 Welcome to Everyday Lifehacks, a simple website set up with the main goals of providing useful tips and tricks you can use around your house to make your life easier and save money. Whether that be cooking, cleaning or giving old things a new purpose, you're sure to learn something new on Everyday Lifehacks.
 
-## Website Purpose
+## Initial Discussion
+---
 
-The purpose of this website is to provide value to it's users and act as a place you can regularly visit to pick up new tips and tricks for around your home. The site features a main page with an introduction to the page, links to category pages and a like to the submit a hack page. The site is easily navigatable through the main navigation menu on top of every page or through the links on the main home page
+Everyday Lifehacks is a collection of useful lifehacks with the aim to provide value to its users and act as a place where people can share their own lifehacks and pick up tips and tricks along the way. 
+Everyday lifehacks had a large following on social media platforms sharing pictures and videos from different accounts on many different platforms. They needed a central location to share content and for their engaging audience to submit their own content to be featured on the site. By having their own website, Everyday Lifehacks plan to become the number one destination for people looking to hack their way through life!
 
-Our category page divides our lifehacks into 3 seperate pages. One for cooking, cleaning and upcycling. These are the main duties everyone does at home. We all have to cook and clean and we aim to provide you with little tips to make these tasks easier, quicker and more economical. We also have the upcycle category, this is to help reuse and recycle any old belongings you have lying around the house and turn them into something useful instead of filling a landfill! For example how to turn your old Jam jars info a terrarium or use old mirrors to create beautiful wall art
+## User Stories
 
-We also have a submit a hack page which allows users to fill out the form with their hack and upload supporting photos or videos to be featured on our website. This means we have a good supply of new hacks being submitted to the website, keeping content fresh and up to date. This feature incourages repeat uses as you can see if your hack got featured and read other user submitted hacks updated regularly
+### Client Goals
 
-## Target Audience
+- To be able to view the site on a range of device sizes.
+- To be able to clearly read and view articles on mobile, tablet and desktop
+- To make it easy for users to view different categories of lifehacks
+- To make it easy for users to submit their own lifehack with supporting pictures or videos
+- To access the original content creators’ websites, channels or social media platforms
 
-Our target audience for this webiste is anyone looking to save time and money and learn something new to help around the house. This could be homeowners learning new skills to try out in the kitchen, kids learning new cleaning techniques to save time on chores, or the whole family learning how to upcycle old shoe boxes into a fun art project!
+### First Time Visitor Goals
+
+- I want to find quickly be able to navigate to the lifehack category I need
+- I want to be able to navigate through the site easily with minimal clicks
+- I want to be able to link to their social media accounts
+
+### Returning Visitor Goals
+
+- I want to be able to easily submit a hack using the form on the site
+- I want to be able to find new lifehacks when they are added to the site
+
+
+# Design
+---
+
+### Colour Palette
+
+![website colour scheme](documentation/color-scheme.png)
+
+I went for this colour scheme as I wanted a main colour of blue to be bright, welcoming and easily recognisable. The other colors went went with the theme with purple used as my main second colour along with black and white
+
+### Typography 
+
+I used Google fonts in this project
+
+- I used Lato for the body paragraph elements with Arial as a backup
+- I used Roboto Mono for the headings and sans-serif as a backup
+
+### Media
+
+My images and videos were taken from a variety of different places. My embedded YouTube videos come from various lifehacks channels, all which are credited on the website and below in the credits section
+
+My images were taken from lifehack websites and free stock photo websites, pexels, unsplash and pixabay. All photos are also credited in the credit section
 
 # Features
+
+This website is made up of 7 pages in total, the home page, the hacks category page, 3 different category pages with articles, a submit form page and a thank you page. 
 
 ### Navigation Bar
 
@@ -65,5 +105,18 @@ In the hacks pages I used a combination of iframes and images in my articles for
 The submit a hack form is where users can submit their own hacks to be featured on the website. This will drive website interaction and create a community of lifehackers! The form design follows the website colour scheme. The form also allows users to submit a photo or video with their hack so they can show their hacks in more detail
 
 ![screenshot of submit a hack form](documentation/submit-form-ss.png)
+
+### Thank you page
+
+This page was created to let the user know their form was submitted. This is a simple page with a thank you message and a button to return to the home page. This was a later addition to my website as I thought the user might get confused when submitting the form if their was no feedback to tell them their submission was successful.
+
+![screenshot of thank you page](documentation/thank-you-ss.png)
+
+## Accessibility
+I have tried to make my website as accessible as possible by using the below features
+
+- Using semantic HTML.
+- Using alt attributes on all images on my website.
+- Making sure that there is a sufficient colour contrast throughout the site and text and headings are easily readable.
 
 
