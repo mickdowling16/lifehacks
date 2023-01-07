@@ -149,9 +149,11 @@ I used lighthouse to test the performance of my website. These tests returned so
 
 The first test I did on lighthouse was the index.html page. The score for accessability and best practices were good but the performance and SEO score were letting me down. I knew my images on the homepage were not optimised for web so this is something that will bring up my performace score and also I haven't added any keywords to my pages so this should bring up my SEO score.
 
-![screenshot of lighthouse test 1](documentation/lighthouse-test-1.png)
+![screenshot of lighthouse test 1 on homepage](documentation/lighthouse-test-1.png)
 
-To improve this score I converted my hero image and my submit a hack background images to webp files. This drastcally reduced the file sizes leading to faster loading times. I also added a meta description and meta keywords to the head of the page to improve SEO.
+To improve this score I converted my hero image and my submit a hack background images to webp files. This drastcally reduced the file sizes leading to faster loading times. I also added a meta description and meta keywords to the head of the page to improve SEO. I also changed the colour of the background, text and links in the main body to be more readable.
+
+![screenshot of lighthouse test 2 on homepage](documentation/lighthouse-test-homepage-2.png)
 
 
 ### Lifehack Pages
