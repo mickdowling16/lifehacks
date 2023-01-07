@@ -187,6 +187,7 @@ I tested the submit a form page on lighthouse and the first test came back good 
 
 I fixed the SEO score by adding the meta description and keywords to the head of the page
 
+![screenshot of second lighthouse test on submit page](documentation/lighthouse-test-submit-2.png)
 
 ## User Stories
 
