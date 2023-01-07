@@ -2,6 +2,8 @@
 
 Welcome to Everyday Lifehacks, a simple website set up with the main goals of providing useful tips and tricks you can use around your house to make your life easier and save money. Whether that be cooking, cleaning or giving old things a new purpose, you're sure to learn something new on Everyday Lifehacks.
 
+![responsive website on different screen sizes](documentation/responsive-website.png)
+
 ## Initial Discussion
 ---
 
@@ -133,6 +135,12 @@ I tested each page of my website's code in the HTML Validator and the results ar
 - [HTML Validator Tests and Results](supporting/html-test.md)
 - [CSS Validator Tests and Results](supporting/css-test.md)
 
+## Solved Bugs
+
+1. The page always had a margin at the top, resulting in a white gap between the navigation and the top of the page. I fixed this by using an asterisk and setting the padding and margin to 0. This allowed me to overwrite any code that was causing the top margin of the page. 
+
+2. 
+
 
 ## Lighthouse
 
@@ -147,13 +155,29 @@ The first test I did on lighthouse was the index.html page. The score for access
 To improve this score I converted my hero image and my submit a hack background images to webp files. This drastcally reduced the file sizes leading to faster loading times. I also added a meta description and meta keywords to the head of the page to improve SEO.
 
 
-### Cleaning Lifehacks Page
+### Lifehack Pages
 
-When I tested this page with lighthouse I found that my embedded youtube videos were seriously reducing the speed of my site. When doing some research I found that because of how much external content they have to load, they require a longer page loading time. 
+When I tested my lifehack pages with lighthouse I found that my embedded youtube videos were seriously reducing the speed of my site. When doing some research I found that because of how much external content they have to load, they require a longer page loading time. I had to rethink what I was going to do because they were a main part of my website but I didn't want to have a slow site
 
 ![screenshot of lighthouse test on cleaning page](documentation/lighthouse-test-cleaning.png)
 
-As you can see from the above screenshot, my performace score was very low. To fix this I researched how to load YouTube embeds faster. There was some solutions using JavaScript but my knowledge of this language got in the way of me being able to use this as a solution. I found a website that converts Youtube videos for embedding into smaller load times so I tested this out. This allows me to only load the video when the user presses the play button, greatly improving site speed on first load
+As you can see from the above screenshot, my performace score was very low on my cleaning hacks page. To fix this I researched how to load YouTube embeds faster. There was some solutions using JavaScript but my knowledge of this language got in the way of me being able to use this as a solution. Another solution I found was a website that converts Youtube videos for embedding into smaller load times by only loading the video when the user presses the play button. I changed all my embedded videos to these different links and tested it out. 
 
+
+### Category Page
+
+When tested the categoried page I knew that the background images in the category divs were not optimised for web and I would get the same error messages as I did with the homepage. Also the SEO score was the same as I needed to add meta descriptions and keywords
+
+![screenshot of lighthouse test on categories page](documentation/lighthouse-test-categories.png)
+
+To fix these issues I onverted the backgroud images I made to webp format and reduced the file size. I also added the meta description and keywords to the page. I'm hoping this will increase my site score
+
+### Submit A Form Page
+
+I tested the submit a form page on lighthouse and the first test came back good for everything but the SEO score, with the same issues as the other pages. 
+
+![screenshot of lighthouse test on submit page](documentation/lighthouse-test-submit.png)
+
+I fixed the SEO score by adding the meta description and keywords to the head of the page
 
 
