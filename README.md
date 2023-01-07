@@ -138,10 +138,22 @@ I tested each page of my website's code in the HTML Validator and the results ar
 
 I used lighthouse to test the performance of my website. These tests returned some unexpected results and forced me to change some elements of my site in order to increase the website speed. Below are the results
 
+### Homepage
+
 The first test I did on lighthouse was the index.html page. The score for accessability and best practices were good but the performance and SEO score were letting me down. I knew my images on the homepage were not optimised for web so this is something that will bring up my performace score and also I haven't added any keywords to my pages so this should bring up my SEO score.
 
 ![screenshot of lighthouse test 1](documentation/lighthouse-test-1.png)
 
-To improve this score I converted my hero image and my submit a hack background images to webp files. This drastcally reduced the file sizes leading to faster loading times
+To improve this score I converted my hero image and my submit a hack background images to webp files. This drastcally reduced the file sizes leading to faster loading times. I also added a meta description and meta keywords to the head of the page to improve SEO.
+
+
+### Cleaning Lifehacks Page
+
+When I tested this page with lighthouse I found that my embedded youtube videos were seriously reducing the speed of my site. When doing some research I found that because of how much external content they have to load, they require a longer page loading time. 
+
+![screenshot of lighthouse test on cleaning page](documentation/lighthouse-test-cleaning.png)
+
+As you can see from the above screenshot, my performace score was very low. To fix this I researched how to load YouTube embeds faster. There was some solutions using JavaScript but my knowledge of this language got in the way of me being able to use this as a solution. I found a website that converts Youtube videos for embedding into smaller load times so I tested this out. This allows me to only load the video when the user presses the play button, greatly improving site speed on first load
+
 
 
