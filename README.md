@@ -120,3 +120,28 @@ I have tried to make my website as accessible as possible by using the below fea
 - Making sure that there is a sufficient colour contrast throughout the site and text and headings are easily readable.
 
 
+
+# Testing
+---
+
+During this project I regularly tested my site using Chrome developer tools and HTML and CSS code validator. This helped me with the responsiveness of my sit and also to make sure the code I had written was up to industry standard and there was no obvious mistakes.
+
+## W3C Validator Results
+
+I tested each page of my website's code in the HTML Validator and the results are linked to below. I also tested my CSS code in the validator and the results are also linked below
+
+- [HTML Validator Tests and Results](supporting/html-test.md)
+- [CSS Validator Tests and Results](supporting/css-test.md)
+
+
+## Lighthouse
+
+I used lighthouse to test the performance of my website. These tests returned some unexpected results and forced me to change some elements of my site in order to increase the website speed. Below are the results
+
+The first test I did on lighthouse was the index.html page. The score for accessability and best practices were good but the performance and SEO score were letting me down. I knew my images on the homepage were not optimised for web so this is something that will bring up my performace score and also I haven't added any keywords to my pages so this should bring up my SEO score.
+
+![screenshot of lighthouse test 1](documentation/lighthouse-test-1.png)
+
+To improve this score I converted my hero image and my submit a hack background images to webp files. This drastcally reduced the file sizes leading to faster loading times
+
+

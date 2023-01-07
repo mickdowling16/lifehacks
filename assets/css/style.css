@@ -87,7 +87,7 @@ header a {
 #hero-image {
     width: 100%;
     height: 600px;
-    background: url('../images/hero-image.jpg') no-repeat center center;
+    background: url('../images/hero-image-web.webp') no-repeat center center;
     background-size: cover;
 }
 
@@ -176,7 +176,7 @@ header a {
     padding-top: 30px;
     height: 100%;
     width: 100%;
-    background: url('../images/abacus.jpg') no-repeat center center;
+    background: url('../images/abacus-web.webp') no-repeat center center;
     box-shadow: inset 0 0 0 2000px rgba(0, 137, 186, 0.6);
     background-size: 100%;
     background-attachment: fixed;
