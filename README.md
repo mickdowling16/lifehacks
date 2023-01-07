@@ -173,7 +173,11 @@ When tested the categoried page I knew that the background images in the categor
 
 ![screenshot of lighthouse test on categories page](documentation/lighthouse-test-categories.png)
 
-To fix these issues I onverted the backgroud images I made to webp format and reduced the file size. I also added the meta description and keywords to the page. I'm hoping this will increase my site score
+To fix these issues I converted the backgroud images I made to webp format and reduced the file size. I also added the meta description and keywords to the page for SEO. I'm hoping this will increase my site score
+
+![screenshot of second lighthouse test on categories page](documentation/lighthouse-test-categories-2.png)
+
+In the second test we can see that these changes had a positive effect on the overall website performace and SEO score.
 
 ### Submit A Form Page
 
