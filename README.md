@@ -98,7 +98,7 @@ On the hacks page I wanted to create a visual way of sorted the lifehacks into 3
 
 ### Hacks articles
 
-In the hacks pages I used a combination of iframes and images in my articles for photos and videos. I thought this would give a better user experience as visual aids are more helpful when learning. The iframes are videos taken from youtube and all links and videos will be referenced below. The video and image dimensions are the same in order for the website to look uniform and they both are fullt responsove to smaller screen sizes
+In the hacks pages I used a combination of iframes and images in my articles for photos and videos. I thought this would give a better user experience as visual aids are more helpful when learning. The iframes are videos taken from youtube and all links and videos will be referenced below. The video and image dimensions are the same in order for the website to look uniform and they both are fully responsive to smaller screen sizes
 
 ![screenshot of article on hacks page](documentation/article-ss.png)
 
@@ -126,7 +126,7 @@ I have tried to make my website as accessible as possible by using the below fea
 # Testing
 ---
 
-During this project I regularly tested my site using Chrome developer tools and HTML and CSS code validator. This helped me with the responsiveness of my sit and also to make sure the code I had written was up to industry standard and there was no obvious mistakes.
+During this project I regularly tested my site using Chrome developer tools and HTML and CSS code validator. This helped me with the responsiveness of my site and also to make sure the code I had written was up to industry standard and there were no obvious mistakes.
 
 ## W3C Validator Results
 
@@ -181,3 +181,23 @@ I tested the submit a form page on lighthouse and the first test came back good 
 I fixed the SEO score by adding the meta description and keywords to the head of the page
 
 
+## User Stories
+
+| Client Goals | Testing |
+| ----------- | ----------- |
+| To be able to view the site on a range of device sizes. | To test this I used Google Chrome Dev tools to test different device sizes and make sure my website was readable on all devices. I used media queries in my CSS to do this |
+| To be able to clearly read and view articles on mobile, tablet and desktop | For the article pages i made sure there was enough padding and spacing between each article and that the artcle and media responded to changing screen sizes|
+| To make it easy for users to view different categories of lifehacks | I done this by making the hacks page with each different category having its own clickable box for users to easily choose which category they would like to view |
+| To make it easy for users to submit their own lifehack with supporting pictures or videos | The submit a hack page allows users to fill out the form and attach any media they would like to support their hack |
+| To access the original content creators’ websites, channels or social media platforms | Each video is embedded from YouTube and the content creator is creditted below each with a link to their youtube channel|
+
+| First Time User Goals | Testing |
+| ----------- | ----------- |
+| I want to find quickly be able to navigate to the lifehack category I need | The hacks page is easily accessable through the main navigation which appears on every page. On the homepage there is also links to each indiviual category so a user can skip by the category page and jump straight to the page they want |
+| I want to be able to navigate through the site easily with minimal clicks | Everything on the website is available within 2 clicks, making it very easy to navigate. |
+| I want to be able to link to their social media accounts | There are social media links in the footer of everypage making them very easy to find |
+
+| Returning User Goals | Testing |
+| ----------- | ----------- |
+| I want to be able to easily submit a hack using the form on the site | Our submit a hack form canm be accessed directly from the main nav or the button on the homepage making it very easily accessable. The form is simple and allows users to attach media if they choose |
+| I want to be able to find new lifehacks when they are added to the site | New lifehacks are added to the top of the page so when you go to the category you want, the top article will be the newest |
