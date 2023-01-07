@@ -141,7 +141,6 @@ I tested each page of my website's code in the HTML Validator and the results ar
 
 2. 
 
-
 ## Lighthouse
 
 I used lighthouse to test the performance of my website. These tests returned some unexpected results and forced me to change some elements of my site in order to increase the website speed. Below are the results
