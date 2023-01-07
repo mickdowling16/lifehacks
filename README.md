@@ -161,8 +161,11 @@ When I tested my lifehack pages with lighthouse I found that my embedded youtube
 
 ![screenshot of lighthouse test on cleaning page](documentation/lighthouse-test-cleaning.png)
 
-As you can see from the above screenshot, my performace score was very low on my cleaning hacks page. To fix this I researched how to load YouTube embeds faster. There was some solutions using JavaScript but my knowledge of this language got in the way of me being able to use this as a solution. Another solution I found was a website that converts Youtube videos for embedding into smaller load times by only loading the video when the user presses the play button. I changed all my embedded videos to these different links and tested it out. 
+As you can see from the above screenshot, my performace score was very low on my cleaning hacks page. To fix this I researched how to load YouTube embeds faster. There was some solutions using JavaScript but my knowledge of this language got in the way of me being able to use this as a solution. Another solution I found was a website that converts Youtube videos for embedding into smaller load times by only loading the video when the user presses the play button. I changed all my embedded videos to these different links and tested it out. I also changed any images I had to webp format to reduce file size.
 
+![screenshot of second lighthouse test on cleaning page](documentation/lighthouse-test-cleaning-2.png)
+
+These changes worked and my scores are now all in the high 90s on all my lifehack pages. 
 
 ### Category Page
 
