@@ -211,6 +211,10 @@ I fixed the SEO score by adding the meta description and keywords to the head of
 | I want to be able to easily submit a hack using the form on the site | Our submit a hack form canm be accessed directly from the main nav or the button on the homepage making it very easily accessable. The form is simple and allows users to attach media if they choose |
 | I want to be able to find new lifehacks when they are added to the site | New lifehacks are added to the top of the page so when you go to the category you want, the top article will be the newest |
 
+## Browser Testing
+
+I tested my website on different browsers to make sure it was responsive and worked as excepted on the 3 main browsers, Chrome, Microsoft Edge and Firefox. Below are the results 
+
 
 # Deployment
 
