@@ -531,6 +531,15 @@ input[type=button], input[type=submit], input[type=reset] {
         line-height: 300px;
         margin-top: 75px;
     }
+
+    #thanks {
+        height: 600px;
+        padding-bottom: 100px;
+    }
+    
+    #thanks hr {
+        visibility: hidden;
+    }
     
 }
 
@@ -573,6 +582,30 @@ input[type=button], input[type=submit], input[type=reset] {
 
     footer {
         margin-top: 50px;
+    }
+
+    #thanks {
+        height: 600px;
+        padding-bottom: 100px;
+    }
+    
+    #thanks hr {
+        visibility: hidden;
+    }
+
+    #thanks h2 {
+        font-size: 3rem;
+        color: #0089BA;
+    }
+    
+    #thanks h3 {
+        font-size: 2rem;
+        padding-top: 20px;
+    }
+
+    #thanks button {
+        width: 80%;
+        font-size: 100%;
     }
 }
 

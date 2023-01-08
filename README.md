@@ -84,7 +84,7 @@ This section of the home page allows users to jump straight to the submit a hack
 
 ### Footer
 
-The idea for the footer came from the love running project. I liked the simple but effective layout of the social media icons. I changed the icon colour to the secondary website colour to match the theme and added a little bit of copyright text below. Lifehacks are often shown in videos and pictures so social media would be a big part of this website so I thought the simple footer with the social icons fit perfectly.
+The idea for the footer came from the love running project. I liked the simple but effective layout of the social media icons. I changed the icon colour to dark navy with a hover colour of blue to match the theme. Lifehacks are often shown in videos and pictures so social media would be a big part of this website so I thought the simple footer with the social icons fit perfectly.
 
 ![screenshot of page footer with social media icons](documentation/footer-ss.png)
 
@@ -142,6 +142,10 @@ I tested each page of my website's code in the HTML Validator and the results ar
 2. When using YouTube embedded videos it was greatly effecting the loading speed of my website. This was a big problem as it was one of my main sources of content. To fix this I used a third party website which takes the YouTube link and converts it and provides you with their own link which embeds the YouTube video to only load when the user clicks the play button. Since I implemented this, my site loading speed is a lot faster. 
 
 3. When trying to submit my form I kept getting a 405 not allowed error. My method was set to post and I tried to put the action as form.php so the responses would be recorded there. This didn't work and I was stuck on this section for quite a while. I searched on slack and found someone else had previously had this problem, so the solution was to change it to a get method and put the action as thanks.html. This meant I could remove the link I had put on my submit button to bring me to the thank you page.
+
+## Unsolved bugs
+
+1. Although I got my submit form to work and display my thank you message using the get method, this wouldn't be very practicle for the type of information I need to collect using my form. The post method I think would be far better but I couldn't figure this out. When I looked online it says my sction needs to point to a php file in order to send the data to this file, but when I did this it returned an error. I'm not sure how I would get this to work so I switched to the get method as it worked and did display the form info in the url on the thank you page. In a future project I would like to work on correcting this as my knowledge on the topic improves.
 
 ## Lighthouse
 
@@ -226,6 +230,11 @@ I tested my website on different browsers to make sure it was responsive and wor
 | Hacks page links and styling | Hacks page correctly links to intended pages and styling looks as it is suppose to | Hacks page correctly links to intended pages and styling looks as it is suppose to | Hacks page correctly links to intended pages. Font weight looks a little different but this could be just how the browser displays it, all other styling is consistent |
 | Hacks page responsiveness | Hacks page fully responsive. Divs and text change to correct size on different devices  | Hacks page fully responsive. Divs and text change to correct size on different devices | Hacks page fully responsive. Divs and text change to correct size on different devices |
 | Lifehack article pages | All articles are fully responsive. Images, videos and text change size to match screen size. When testing I noticed the padding at the top of each article was a bit big so I will change this so articles appear a small bit closer together  | All articles are fully responsive. Images, videos and text change size to match screen size | All articles are fully responsive. Images, videos and text change size to match screen size |
+| Submit a hack form | The form returned a 405 error when trying to submit, I changed the method and action and now form works perfectly. This change is mentioned in solved bugs  | The form returned a 405 error when trying to submit, I changed the method and action and now form works perfectly. This change is mentioned in solved bugs | The form returned a 405 error when trying to submit, I changed the method and action and now form works perfectly. This change is mentioned in solved bugs |
+| Submit a hack responsiveness | The form is fully responsive to all screen types and looks as intended | The form is fully responsive to all screen types and looks as intended | The form is fully responsive to all screen types and looks as intended |
+| thank you page responsiveness | The thank you page was not fully responsive and the content affected the footer on smaller devices. This has been changed using media queries and looks as intended now | The thank you page was not fully responsive and the content affected the footer on smaller devices. This has been changed using media queries and looks as intended now | The thank you page was not fully responsive and the content affected the footer on smaller devices. This has been changed using media queries and looks as intended now |
+| footer | All social media links work as intended and open page in new tab. The icons also change colour when hovered on | All social media links work as intended and open page in new tab. The icons also change colour when hovered on | All social media links work as intended and open page in new tab. The icons also change colour when hovered on |
+
 
 # Deployment
 
