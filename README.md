@@ -141,7 +141,7 @@ I tested each page of my website's code in the HTML Validator and the results ar
 
 2. When using YouTube embedded videos it was greatly effecting the loading speed of my website. This was a big problem as it was one of my main sources of content. To fix this I used a third party website which takes the YouTube link and converts it and provides you with their own link which embeds the YouTube video to only load when the user clicks the play button. Since I implemented this, my site loading speed is a lot faster. 
 
-3. When trying to submit my form I kept getting a 405 not allowed error. 
+3. When trying to submit my form I kept getting a 405 not allowed error. My method was set to post and I tried to put the action as form.php so the responses would be recorded there. This didn't work and I was stuck on this section for quite a while. I searched on slack and found someone else had previously had this problem, so the solution was to change it to a get method and put the action as thanks.html. This meant I could remove the link I had put on my submit button to bring me to the thank you page.
 
 ## Lighthouse
 
