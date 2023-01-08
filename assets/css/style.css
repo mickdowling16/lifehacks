@@ -305,14 +305,14 @@ article {
     width: 100%;
     height: 600px;
     margin: auto;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
 }
 
 article div {
     width: 80%;
     height: 600px;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 article h2 {
@@ -332,7 +332,12 @@ article p {
 .lifehacks-headings {
     margin: auto;
     text-align: center;
-    padding: 50px;
+    padding: 25px;
+}
+
+.lifehacks-headings hr {
+    width: 50%;
+    margin: auto;
 }
 
 iframe {

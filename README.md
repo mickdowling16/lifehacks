@@ -215,6 +215,15 @@ I fixed the SEO score by adding the meta description and keywords to the head of
 
 I tested my website on different browsers to make sure it was responsive and worked as excepted on the 3 main browsers, Chrome, Microsoft Edge and Firefox. Below are the results 
 
+| What was tested | Chrome | Edge | Firefox |
+| ----------- | ----------- | ----------- | ----------- |
+| Homepage buttons | Buttons linked to correct pages and worked as expected | Buttons linked to correct pages and worked as expected | Buttons linked to correct pages and worked as expected |
+| Category links on homepage | links went to correct pages and worked as expected | links went to correct pages and worked as expected | links went to correct pages and worked as expected |
+| Homepage styling | Homepage styling looks correct and the way it was intended | Homepage styling looks correct and the way it was intended | Homepage styling looks correct and the way it was intended |
+| Homepage responsiveness | Homepage fully responsive and working well on all screen sizes | Homepage fully responsive and working well on all screen sizes | Homepage fully responsive and working well on all screen sizes |
+| Hacks page links and styling | Hacks page correctly links to intended pages and styling looks as it is suppose to | Hacks page correctly links to intended pages and styling looks as it is suppose to | Hacks page correctly links to intended pages. Font weight looks a little different but this could be just how the browser displays it, all other styling is consistent |
+| Hacks page responsiveness | Hacks page fully responsive. Divs and text change to correct size on different devices  | Hacks page fully responsive. Divs and text change to correct size on different devices | Hacks page fully responsive. Divs and text change to correct size on different devices |
+| Lifehack article pages | All articles are fully responsive. Images, videos and text change size to match screen size. When testing I noticed the padding at the top of each article was a bit big so I will change this so articles appear a small bit closer together  | All articles are fully responsive. Images, videos and text change size to match screen size | All articles are fully responsive. Images, videos and text change size to match screen size |
 
 # Deployment
 
