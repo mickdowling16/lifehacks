@@ -232,6 +232,10 @@ In this section you will find my references for where I found my content and inf
 The content for the articles on this site were taken from The YouTube videos used and also articles on lifehacks and upcycling. The majority of the code was written by myself with small bits taken from other sources, all linked below
 
 - YouTube Video links were video descriptions were used in the text of my articles. - [YouTube Video Links](supporting/youtube-links.md)
+- The footer on my website was taken from the love running project we done in HTML & CSS fundimentals. I liked the minimalistic design of it and all I wanted from my footer was social media links so it worked well with the project. 
+- To convert the YouTube videos to a smaller size in order to be embedded I used this website - https://tube.rvere.com/
+- For the cooking lifehacks that were submitted by a user I used this article for the content - https://www.eatthis.com/kitchen-hacks-cooking-tips/
+- For the upcycle lifehacks content I used these 2 websites - https://cleaning-hacks.sharkclean.co.uk/3-simple-upcycling-ideas/ & https://www.lifehack.org/486497/5-ways-to-upcycle-for-unique-home-decor
 
 ## Media
 
