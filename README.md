@@ -217,6 +217,15 @@ I fixed the SEO score by adding the meta description and keywords to the head of
 | I want to be able to easily submit a hack using the form on the site | Our submit a hack form canm be accessed directly from the main nav or the button on the homepage making it very easily accessable. The form is simple and allows users to attach media if they choose |
 | I want to be able to find new lifehacks when they are added to the site | New lifehacks are added to the top of the page so when you go to the category you want, the top article will be the newest |
 
+## Responsiveness
+
+### Mobile
+
+![screenshot of main body on homepage on mobile](documentation/main-body-mobile.png)
+![screenshot of hacks page on mobile](documentation/hacks-mobile.png)
+![screenshot of article on mobile](documentation/article-mobile.png)
+![screenshot of submit form on mobile](documentation/submit-form-mobile.png)
+
 ## Browser Testing
 
 I tested my website on different browsers to make sure it was responsive and worked as excepted on the 3 main browsers, Chrome, Microsoft Edge and Firefox. Below are the results 
@@ -234,7 +243,6 @@ I tested my website on different browsers to make sure it was responsive and wor
 | Submit a hack responsiveness | The form is fully responsive to all screen types and looks as intended | The form is fully responsive to all screen types and looks as intended | The form is fully responsive to all screen types and looks as intended |
 | thank you page responsiveness | The thank you page was not fully responsive and the content affected the footer on smaller devices. This has been changed using media queries and looks as intended now | The thank you page was not fully responsive and the content affected the footer on smaller devices. This has been changed using media queries and looks as intended now | The thank you page was not fully responsive and the content affected the footer on smaller devices. This has been changed using media queries and looks as intended now |
 | footer | All social media links work as intended and open page in new tab. The icons also change colour when hovered on | All social media links work as intended and open page in new tab. The icons also change colour when hovered on | All social media links work as intended and open page in new tab. The icons also change colour when hovered on |
-
 
 # Deployment
 
@@ -260,6 +268,7 @@ The content for the articles on this site were taken from The YouTube videos use
 - To convert the YouTube videos to a smaller size in order to be embedded I used this website - https://tube.rvere.com/
 - For the cooking lifehacks that were submitted by a user I used this article for the content - https://www.eatthis.com/kitchen-hacks-cooking-tips/
 - For the upcycle lifehacks content I used these 2 websites - https://cleaning-hacks.sharkclean.co.uk/3-simple-upcycling-ideas/ & https://www.lifehack.org/486497/5-ways-to-upcycle-for-unique-home-decor
+- The icons used in the footer were taken from - https://fontawesome.com/
 
 ## Media
 
