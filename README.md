@@ -141,6 +141,8 @@ I tested each page of my website's code in the HTML Validator and the results ar
 
 2. When using YouTube embedded videos it was greatly effecting the loading speed of my website. This was a big problem as it was one of my main sources of content. To fix this I used a third party website which takes the YouTube link and converts it and provides you with their own link which embeds the YouTube video to only load when the user clicks the play button. Since I implemented this, my site loading speed is a lot faster. 
 
+3. When trying to submit my form I kept getting a 405 not allowed error. 
+
 ## Lighthouse
 
 I used lighthouse to test the performance of my website. These tests returned some unexpected results and forced me to change some elements of my site in order to increase the website speed. Below are the results
