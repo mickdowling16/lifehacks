@@ -72,9 +72,9 @@ The hero image is the main image seen when a user uses the site. The images was 
 
 ### Main body
 
-The main body of the home page further explains the purpose of the website. It gives users an insight into what to expect on the website and offers direct links to the 3 different category pages. The main body text carries on the colour theme of the website.
+The main body of the home page further explains the purpose of the website. It gives users an insight into what to expect on the website and offers direct links to the 3 different category pages. The main body text carries on the colour theme of the website. I originally had a white background with blue links but it didn't pass the accessibility test on lighthouse so I changed the background colour to the navy seen in the colour scheme.
 
-![screenshot of main body text with links to category pages](documentation/main-body-ss.png)
+![screenshot of main body text with links to category pages](documentation/main-ss.png)
 
 ### Submit A Hack Button
 
@@ -139,7 +139,7 @@ I tested each page of my website's code in the HTML Validator and the results ar
 
 1. The page always had a margin at the top, resulting in a white gap between the navigation and the top of the page. I fixed this by using an asterisk and setting the padding and margin to 0. This allowed me to overwrite any code that was causing the top margin of the page. 
 
-2. 
+2. When using YouTube embedded videos it was greatly effecting the loading speed of my website. This was a big problem as it was one of my main sources of content. To fix this I used a third party website which takes the YouTube link and converts it and provides you with their own link which embeds the YouTube video to only load when the user clicks the play button. Since I implemented this, my site loading speed is a lot faster. 
 
 ## Lighthouse
 
@@ -210,3 +210,30 @@ I fixed the SEO score by adding the meta description and keywords to the head of
 | ----------- | ----------- |
 | I want to be able to easily submit a hack using the form on the site | Our submit a hack form canm be accessed directly from the main nav or the button on the homepage making it very easily accessable. The form is simple and allows users to attach media if they choose |
 | I want to be able to find new lifehacks when they are added to the site | New lifehacks are added to the top of the page so when you go to the category you want, the top article will be the newest |
+
+
+# Deployment
+
+I deployed my project using Github pages. Below are the steps I followed to achieve this
+
+- In the GitHub repository named lifehacks, navigate to the Settings tab
+- On the left hand side under code and automation, click pages
+- Under the Build and Develop section set Source to Deploy from a branch and set the branch to main
+- Run this and a link to the website will appear
+
+This is the live link - https://mickdowling16.github.io/lifehacks/index.html
+
+# Credits
+
+In this section you will find my references for where I found my content and information for this website.
+
+## Content
+
+The content for the articles on this site were taken from The YouTube videos used and also articles on lifehacks and upcycling. The majority of the code was written by myself with small bits taken from other sources, all linked below
+
+- YouTube Video links were video descriptions were used in the text of my articles. - [YouTube Video Links](supporting/youtube-links.md)
+
+## Media
+
+- The YouTube embedded videos were taken from various lifehack channels and all links can be found under the videos on the website and also here - [YouTube Channel Links](supporting/youtube-links.md)
+- The images I used were taken from a variety of different websites including pexels, pixabay and unsplash. I also found images for my lifehack pages on articles and google images. For the backgrounds in the category divs, I made these myself using pixlr.com and icons I found on Google images. All linkss to images can be found here - [Image Links](supporting/image-links.md)
