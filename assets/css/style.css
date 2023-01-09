@@ -3,9 +3,9 @@
 * {
     margin: 0px;
     padding: 0px;
- }
+}
 
-body {    
+body {
     font-family: Lato, arial;
 }
 
@@ -233,7 +233,7 @@ footer {
 #cleaning-category {
     width: 80%;
     height: 500px;
-    background-color:rgba(0, 137, 186, 0.6);
+    background-color: rgba(0, 137, 186, 0.6);
     border-radius: 10%;
     margin: auto;
     margin-top: 50px;
@@ -366,23 +366,23 @@ input[type=text] {
     margin: 8px 0;
     box-sizing: border-box;
     border: 3px solid #0089BA;
-  }
+}
 
-  input[type=text]:focus {
+input[type=text]:focus {
     background-color: lightblue;
-  }
+}
 
-  input[type=email] {
+input[type=email] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
     border: 3px solid #0089BA;
-  }
+}
 
-  input[type=email]:focus {
+input[type=email]:focus {
     background-color: lightblue;
-  }
+}
 
 #submit-form {
     padding-top: 80px;
@@ -398,7 +398,9 @@ input[type=text] {
     height: 100px;
 }
 
-input[type=button], input[type=submit], input[type=reset] {
+input[type=button],
+input[type=submit],
+input[type=reset] {
     background-color: #0089BA;
     border: none;
     color: #fcf8f7;
@@ -406,7 +408,7 @@ input[type=button], input[type=submit], input[type=reset] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
-  }
+}
 
 /* Thank you page styling */
 
@@ -506,7 +508,7 @@ input[type=button], input[type=submit], input[type=reset] {
         height: 600px;
         margin: auto;
     }
-    
+
     article div {
         width: 80%;
         height: 600px;
@@ -536,11 +538,11 @@ input[type=button], input[type=submit], input[type=reset] {
         height: 600px;
         padding-bottom: 100px;
     }
-    
+
     #thanks hr {
         visibility: hidden;
     }
-    
+
 }
 
 @media screen and (max-width: 620px) {
@@ -588,7 +590,7 @@ input[type=button], input[type=submit], input[type=reset] {
         height: 600px;
         padding-bottom: 100px;
     }
-    
+
     #thanks hr {
         visibility: hidden;
     }
@@ -597,7 +599,7 @@ input[type=button], input[type=submit], input[type=reset] {
         font-size: 3rem;
         color: #0089BA;
     }
-    
+
     #thanks h3 {
         font-size: 2rem;
         padding-top: 20px;
@@ -679,7 +681,7 @@ input[type=button], input[type=submit], input[type=reset] {
     #main-body {
         height: 600px;
     }
-    
+
     iframe {
         height: 140px;
         width: 240px;
