@@ -1,6 +1,7 @@
-# YouTube video credits
+# YouTube Video Credits
+---
 
-# YouTube Videos Used
+## YouTube Videos Used
 
 - https://www.youtube.com/watch?v=GaGcUBKmHO8
 - https://youtu.be/D3J2em4UaZ0
