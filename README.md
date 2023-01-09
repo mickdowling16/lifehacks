@@ -1,20 +1,20 @@
 # Everyday Lifehacks - Milestone Project 1
 
-Welcome to Everyday Lifehacks, a simple website set up with the main goals of providing useful tips and tricks you can use around your house to make your life easier and save money. Whether that be cooking, cleaning or giving old things a new purpose, you're sure to learn something new on Everyday Lifehacks.
+Welcome to Everyday Lifehacks, a simple website set up with the main goal of providing useful tips and tricks you can use around your house to make your life easier and save money. Whether that be cooking, cleaning or giving old things a new life, you're sure to learn something new on Everyday Lifehacks.
 
-![responsive website on different screen sizes](documentation/responsive-website.png)
+![responsive website on different screen sizes](documentation/responsive-web.png)
 
 ## Initial Discussion
 ---
 
 Everyday Lifehacks is a collection of useful lifehacks with the aim to provide value to its users and act as a place where people can share their own lifehacks and pick up tips and tricks along the way. 
-Everyday lifehacks had a large following on social media platforms sharing pictures and videos from different accounts on many different platforms. They needed a central location to share content and for their engaging audience to submit their own content to be featured on the site. By having their own website, Everyday Lifehacks plan to become the number one destination for people looking to hack their way through life!
+Everyday lifehacks has a large following on social media platforms where they share pictures and videos from different accounts on many different platforms. They needed a central location to share content and for their engaging audience to submit their own content to be featured on the site. By having their own website, Everyday Lifehacks can become the one stop shop for all lifehacks on the internet!
 
 ## User Stories
 
 ### Client Goals
 
-- To be able to view the site on a range of device sizes.
+- To be able to view the site on a range of different devices.
 - To be able to clearly read and view articles on mobile, tablet and desktop
 - To make it easy for users to view different categories of lifehacks
 - To make it easy for users to submit their own lifehack with supporting pictures or videos
@@ -22,9 +22,9 @@ Everyday lifehacks had a large following on social media platforms sharing pictu
 
 ### First Time Visitor Goals
 
-- I want to find quickly be able to navigate to the lifehack category I need
+- I want to be able to quickly navigate to the lifehack category I need
 - I want to be able to navigate through the site easily with minimal clicks
-- I want to be able to link to their social media accounts
+- I want to be able to find Everyday Lifehacks on social media
 
 ### Returning Visitor Goals
 
@@ -39,7 +39,7 @@ Everyday lifehacks had a large following on social media platforms sharing pictu
 
 ![website colour scheme](documentation/color-scheme.png)
 
-I went for this colour scheme as I wanted a main colour of blue to be bright, welcoming and easily recognisable. The other colors went went with the theme with purple used as my main second colour along with black and white
+I went for this colour scheme as I wanted the main colour of blue to be bright, welcoming and easily recognisable. The other colours went well with the theme, with navy used as my main second colour along with black, white and purple
 
 ### Typography 
 
@@ -60,13 +60,13 @@ This website is made up of 7 pages in total, the home page, the hacks category p
 
 ### Navigation Bar
 
-The Navigation bar features on all pages and contains the website logo and links to the main 3 pages. The nav bar is fully responsive to different page sizes. The Everyday Lifehacks logo is also a link back to the homepage. I made the page links a different colour when hovered on to help with user experience
+The Navigation bar features on all pages and contains the website logo and links to the main 3 pages. The nav bar is fully responsive to different page sizes. The Everyday Lifehacks logo is also a link back to the homepage. I made the menu a different colour when hovered on to help with user experience
 
 ![page navigation and logo screenshot](documentation/navigation-ss.png)
 
 ### Hero Image
 
-The hero image is the main image seen when a user uses the site. The images was chosen as it goes with my colour theme and it features a magnifying glass over a euro coin, signifying the money saving aspect of the lifehacks. I thought the picture went well with the overall theme of the website. The hero image also contains text to welcome the user to the site and a button with a link to the hacks category page so the user can access the info they need quickly without having to scroll through the page.
+The hero image is the main image seen when a user loads the site. The images was chosen as it goes with my colour theme and it features a magnifying glass over a euro coin, signifying the money saving aspect of the lifehacks. I thought the picture went well with the overall theme of the website. The hero image also contains text to welcome the user to the site and a button with a link to the hacks category page so the user can access the info they need quickly without having to scroll through the page.
 
 ![home page hero image of magnifying glass](documentation/hero-image-ss.png)
 
@@ -90,7 +90,7 @@ The idea for the footer came from the love running project. I liked the simple b
 
 ### Hacks page
 
-On the hacks page I wanted to create a visual way of sorted the lifehacks into 3 main categories. I done this by creating 3 seperate divs with borders and background images and using this as my category page. You can see by the pictures below the icons in the background match the corresponding category and i have used the main colours of the website as an overlay. I also used the scroll effect on these background as it appears when your scroll down the page the background changes. I thought this was a sun way of making a category page and adds to the design of the website. These divs are also fully responsive and change size to better fit smaller screens as to not be too big on mobile devices. 
+On the hacks page I wanted to create a visual way of sorting the lifehacks into 3 main categories. I done this by creating 3 seperate divs with borders and background images and used this as my category page. You can see by the pictures below the icons in the background match the corresponding category and I have used the main colours of the website as an overlay. I also used the scroll effect on the background as it appears when your scroll down the page the background changes to match the category. I thought this was a fun way of making a category page and adds to the design of the website. These divs are also fully responsive and change size to better fit smaller screens as to not be too big on mobile devices. 
 
 ![screenshot of cleaning hacks category page](documentation/hacks-category-1.png)
 ![screenshot of cooking hacks category page](documentation/hacks-category-2.png)
@@ -98,13 +98,13 @@ On the hacks page I wanted to create a visual way of sorted the lifehacks into 3
 
 ### Hacks articles
 
-In the hacks pages I used a combination of iframes and images in my articles for photos and videos. I thought this would give a better user experience as visual aids are more helpful when learning. The iframes are videos taken from youtube and all links and videos will be referenced below. The video and image dimensions are the same in order for the website to look uniform and they both are fully responsive to smaller screen sizes
+In the hacks pages I used a combination of iframes and images in my articles for photos and videos. I thought this would give a better user experience as visual aids are more helpful when learning. The iframes are videos taken from youtube and all links and videos will be referenced below. The video and image dimensions are the same in order for the website to look uniform and they are both fully responsive to smaller screen sizes
 
 ![screenshot of article on hacks page](documentation/article-ss.png)
 
 ### Submit A Hack Form
 
-The submit a hack form is where users can submit their own hacks to be featured on the website. This will drive website interaction and create a community of lifehackers! The form design follows the website colour scheme. The form also allows users to submit a photo or video with their hack so they can show their hacks in more detail
+The submit a hack form is where users can submit their own hacks to be featured on the website. This will drive website interaction and create a community of lifehackers! The form design follows the website colour scheme. The form also allows users to submit a photo or video with their hack so they can show their hacks in more detail. For an added design element in the form I added the colour blue to the text boxes when clicked.
 
 ![screenshot of submit a hack form](documentation/submit-form-ss.png)
 
@@ -120,8 +120,6 @@ I have tried to make my website as accessible as possible by using the below fea
 - Using semantic HTML.
 - Using alt attributes on all images on my website.
 - Making sure that there is a sufficient colour contrast throughout the site and text and headings are easily readable.
-
-
 
 # Testing
 ---
@@ -141,11 +139,11 @@ I tested each page of my website's code in the HTML Validator and the results ar
 
 2. When using YouTube embedded videos it was greatly effecting the loading speed of my website. This was a big problem as it was one of my main sources of content. To fix this I used a third party website which takes the YouTube link and converts it and provides you with their own link which embeds the YouTube video to only load when the user clicks the play button. Since I implemented this, my site loading speed is a lot faster. 
 
-3. When trying to submit my form I kept getting a 405 not allowed error. My method was set to post and I tried to put the action as form.php so the responses would be recorded there. This didn't work and I was stuck on this section for quite a while. I searched on slack and found someone else had previously had this problem, so the solution was to change it to a get method and put the action as thanks.html. This meant I could remove the link I had put on my submit button to bring me to the thank you page.
+3. When trying to submit my form I kept getting a 405 not allowed error. My method was set to post and I tried to put the action as form.php so the responses would be recorded in this php file. This didn't work and I was stuck on this section for quite a while. I searched on slack and found someone else had previously had this problem, so the solution was to change it to a get method and put the action as thanks.html. This meant I could remove the link I had put on my submit button to bring the user to the thank you page.
 
 ## Unsolved bugs
 
-1. Although I got my submit form to work and display my thank you message using the get method, this wouldn't be very practicle for the type of information I need to collect using my form. The post method I think would be far better but I couldn't figure this out. When I looked online it says my sction needs to point to a php file in order to send the data to this file, but when I did this it returned an error. I'm not sure how I would get this to work so I switched to the get method as it worked and did display the form info in the url on the thank you page. In a future project I would like to work on correcting this as my knowledge on the topic improves.
+1. Although I got my submit form to work and display my thank you message using the get method, this wouldn't be very practicle for the type of information I need to collect using my form. I think the post method would be far better but I couldn't figure this out. When I looked online it says my action attribute needs to point to a php file in order to send the data to this file, but when I did this it returned an error. I'm not sure how I would get this to work so I switched to the get method as it worked and did display the form info in the url on the thank you page. In a future project I would like to work on correcting this as my knowledge on the topic improves.
 
 ## Lighthouse
 
@@ -176,7 +174,7 @@ These changes worked and my scores are now all in the high 90s on all my lifehac
 
 ### Category Page
 
-When tested the categoried page I knew that the background images in the category divs were not optimised for web and I would get the same error messages as I did with the homepage. Also the SEO score was the same as I needed to add meta descriptions and keywords
+When testing the categories page I knew that the background images in the category divs were not optimised for web and I would get the same error messages as I did with the homepage. Also the SEO score was the same as I needed to add meta descriptions and keywords
 
 ![screenshot of lighthouse test on categories page](documentation/lighthouse-test-categories.png)
 
@@ -200,21 +198,21 @@ I fixed the SEO score by adding the meta description and keywords to the head of
 
 | Client Goals | Testing |
 | ----------- | ----------- |
-| To be able to view the site on a range of device sizes. | To test this I used Google Chrome Dev tools to test different device sizes and make sure my website was readable on all devices. I used media queries in my CSS to do this |
-| To be able to clearly read and view articles on mobile, tablet and desktop | For the article pages i made sure there was enough padding and spacing between each article and that the artcle and media responded to changing screen sizes|
+| To be able to view the site on a range of different devices. | To test this I used Google Chrome Developer tools to test different device sizes and make sure my website was readable on all devices. I used media queries in my CSS code to do this |
+| To be able to clearly read and view articles on mobile, tablet and desktop | For the article pages I made sure there was enough padding and spacing between each article and that the article and media responded to changing screen sizes|
 | To make it easy for users to view different categories of lifehacks | I done this by making the hacks page with each different category having its own clickable box for users to easily choose which category they would like to view |
 | To make it easy for users to submit their own lifehack with supporting pictures or videos | The submit a hack page allows users to fill out the form and attach any media they would like to support their hack |
-| To access the original content creators’ websites, channels or social media platforms | Each video is embedded from YouTube and the content creator is creditted below each with a link to their youtube channel|
+| To access the original content creators’ websites, channels or social media platforms | Each video is embedded from YouTube and the content creator is creditted below each with a link to their YouTube channel |
 
 | First Time User Goals | Testing |
 | ----------- | ----------- |
-| I want to find quickly be able to navigate to the lifehack category I need | The hacks page is easily accessable through the main navigation which appears on every page. On the homepage there is also links to each indiviual category so a user can skip by the category page and jump straight to the page they want |
+| I want to be able to quickly navigate to the lifehack category I need | The hacks page is easily accessable through the main navigation which appears on every page. On the homepage there is also links to each indiviual category so a user can skip by the category page and jump straight to the page they want |
 | I want to be able to navigate through the site easily with minimal clicks | Everything on the website is available within 2 clicks, making it very easy to navigate. |
-| I want to be able to link to their social media accounts | There are social media links in the footer of everypage making them very easy to find |
+| I want to be able to find Everyday Lifehacks on social media | There are social media links in the footer of every page, making them very easy to find |
 
 | Returning User Goals | Testing |
 | ----------- | ----------- |
-| I want to be able to easily submit a hack using the form on the site | Our submit a hack form canm be accessed directly from the main nav or the button on the homepage making it very easily accessable. The form is simple and allows users to attach media if they choose |
+| I want to be able to easily submit a hack using the form on the site | Our submit a hack form can be accessed directly from the main navigation or the button on the homepage making it very easily accessable. The form is simple and allows users to attach media if they choose |
 | I want to be able to find new lifehacks when they are added to the site | New lifehacks are added to the top of the page so when you go to the category you want, the top article will be the newest |
 
 ## Responsiveness
@@ -225,6 +223,14 @@ I fixed the SEO score by adding the meta description and keywords to the head of
 ![screenshot of hacks page on mobile](documentation/hacks-mobile.png)
 ![screenshot of article on mobile](documentation/article-mobile.png)
 ![screenshot of submit form on mobile](documentation/submit-form-mobile.png)
+
+### Ipad
+
+![screenshot of hero image on ipad](documentation/hero-image-ipad.png)
+![screenshot of main body on homepage on ipad](documentation/main-body-ipad.png)
+![screenshot of hacks page on ipad](documentation/hacks-ipad.png)
+![screenshot of article on ipad](documentation/article-ipad.png)
+![screenshot of submit form on mobile](documentation/submit-form-ipad.png)
 
 ## Browser Testing
 
@@ -269,8 +275,9 @@ The content for the articles on this site were taken from The YouTube videos use
 - For the cooking lifehacks that were submitted by a user I used this article for the content - https://www.eatthis.com/kitchen-hacks-cooking-tips/
 - For the upcycle lifehacks content I used these 2 websites - https://cleaning-hacks.sharkclean.co.uk/3-simple-upcycling-ideas/ & https://www.lifehack.org/486497/5-ways-to-upcycle-for-unique-home-decor
 - The icons used in the footer were taken from - https://fontawesome.com/
+- I used W3Schools to help with some of my code if I got stuck or couldn't remeber a certain attribute. I also used their code editor to quickly test some elements before putting them into my project.
 
 ## Media
 
 - The YouTube embedded videos were taken from various lifehack channels and all links can be found under the videos on the website and also here - [YouTube Channel Links](supporting/youtube-links.md)
-- The images I used were taken from a variety of different websites including pexels, pixabay and unsplash. I also found images for my lifehack pages on articles and google images. For the backgrounds in the category divs, I made these myself using pixlr.com and icons I found on Google images. All linkss to images can be found here - [Image Links](supporting/image-links.md)
+- The images I used were taken from a variety of different websites including pexels, pixabay and unsplash. I also found images for my lifehack pages on articles and google images. For the backgrounds in the category divs, I made these myself using pixlr.com and icons I found on Google images. All links to images can be found here - [Image Links](supporting/image-links.md)
